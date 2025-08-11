@@ -350,3 +350,10 @@ public class URLShortener {
         }
     }
 }
+
+
+
+
+// OUTPUT:
+// code,longUrl,id,createdAt
+// 1,https://www.pexels.com/search/beautiful/,1,2025-08-11 19:05:36
