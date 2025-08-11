@@ -27,8 +27,7 @@ It uses rules for complexity and provides feedback for improvement.
 ```bash
 javac PasswordTool.java
 java PasswordTool
-
----
+```
 
 ## 2. Intelligent File Organizer
 
@@ -54,6 +53,7 @@ Categories can be customized via a JSON configuration file.
 ```bash
 javac FileOrganizer.java
 java FileOrganizer
+```
 
 ## 3. Offline URL Shortener
 
