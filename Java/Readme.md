@@ -27,3 +27,48 @@ It uses rules for complexity and provides feedback for improvement.
 ```bash
 javac PasswordTool.java
 java PasswordTool
+
+---
+
+## 2. Intelligent File Organizer
+
+**Description:** 
+A local file management utility that scans a directory and organizes files into categorized folders based on their extensions.
+Categories can be customized via a JSON configuration file.
+
+**Features:**
+    Auto-detect and move files into:
+        Images
+        Videos
+        Documents
+        Music
+        Code files
+
+    Configurable categories via config.json.
+
+    Generates a log of all moved files.
+
+    Works recursively for subfolders.
+
+**Run Instructions:**
+```bash
+javac FileOrganizer.java
+java FileOrganizer
+
+## 3. Offline URL Shortener
+
+**Description:**
+A simple URL shortener that works offline by creating short random codes for long URLs.
+Mappings are stored locally in a serialized file and can be retrieved later.
+
+**Features:**
+    Generate unique short codes (6 characters).
+    Retrieve the original URL from a short code.
+    Track how many times a code has been used.
+    Delete URL mappings.
+    Persistent storage using binary file serialization.
+
+**Run Instructions:**
+```bash
+javac OfflineURLShortener.java
+java OfflineURLShortener
